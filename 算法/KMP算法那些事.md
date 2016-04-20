@@ -6,6 +6,7 @@
 2. 模式串移动块即字符串后缀与字符串前缀的最大共同部分。
 3. 利用递归的思路预处理求解模式串移动块 从第一个位置开始循环 ，标记为q，当k位置的元素不等于q位置的元素，k递归为next[k-1],相等时k后移，使得next[q]=k;
 4. 跟据next数组进行移动模式串，递归求解。
+
 ![KMP模式串移动块.png](http://upload-images.jianshu.io/upload_images/525165-75d86a86f97e3cba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ###　实现代码
