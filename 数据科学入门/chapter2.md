@@ -7,7 +7,7 @@
 ### 除法问题 
 Python默认整除，如果想使用浮点数除法需要
 ```python 
-    from __future__ import divisio
+        from __future__ import divisio
 ```
 这时候整除用//即可
 
@@ -22,4 +22,7 @@ def apply_to_one(f):
 my_double = double
 x = apply_to_one(my_double)
 ```
-
+#### lambda表示
+```python
+y = apply_to_one(lambda x:x+4)print  y
+```
