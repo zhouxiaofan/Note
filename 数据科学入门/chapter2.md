@@ -24,5 +24,6 @@ x = apply_to_one(my_double)
 ```
 #### lambda表示
 ```python
-y = apply_to_one(lambda x:x+4)print  y
+y = apply_to_one(lambda x:x+4)
+print  y
 ```
