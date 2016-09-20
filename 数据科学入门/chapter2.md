@@ -11,7 +11,8 @@ Python默认整除，如果想使用浮点数除法需要
 ```
 这时候整除用//即可
 
-### 函数作为参数
+### 函数
+#### 函数作为参数
 ```python
 def double(x):
     return x  *  2
@@ -22,8 +23,16 @@ def apply_to_one(f):
 my_double = double
 x = apply_to_one(my_double)
 ```
-#### lambda表示
+##### lambda表示
 ```python
 y = apply_to_one(lambda x:x+4)
 print  y
+```
+#### 可以通过参数名称指定参数
+```python
+def subtrac(a=0,b=0):    
+      return a-b
+print subtrac(10,5)
+print subtrac(0,5)
+print subtrac(b=5)
 ```
