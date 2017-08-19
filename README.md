@@ -4,3 +4,4 @@
 ## 目录
 1. [剑指offer整理](./剑指offer整理/README.md)
 2. [吾窥经典算法](./算法/README.md)
+3. [ACM/ICPC && 笔试算法](./ACMICPC&&笔试算法/README.md)
