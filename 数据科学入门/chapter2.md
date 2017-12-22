@@ -7,10 +7,10 @@
 ### 除法问题 
 Python默认整除，如果想使用浮点数除法需要
 ```python 
-        from __future__ import divisio
+        from __future__ import division
 ```
 这时候整除用//即可
-
+$ A \times B $ 
 ### 函数
 #### 函数作为参数
 ```python
