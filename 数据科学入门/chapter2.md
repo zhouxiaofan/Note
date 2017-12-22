@@ -10,7 +10,10 @@ Python默认整除，如果想使用浮点数除法需要
         from __future__ import division
 ```
 这时候整除用//即可
-$ A \times B $ 
+$$
+C = AB\\
+C_{i,j}=\sum_{k}A_{i,k}B_{k,j}
+$$
 ### 函数
 #### 函数作为参数
 ```python
